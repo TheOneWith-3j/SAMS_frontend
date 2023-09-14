@@ -44,7 +44,7 @@ const Responses = () => {
     }
     else {
 
-      axios.get('http://localhost:5001/auth/validate', {
+      axios.get('https://sam-backend.kjsieit.com/auth/validate', {
         headers: {
           'x-access-token': localStorage.getItem('token'),
           'user_id': localStorage.getItem('user_id')
@@ -154,7 +154,7 @@ const Responses = () => {
 
     }
 
-    axios.get(`http://localhost:5001/admin/data/forms/${path}`, {
+    axios.get(`https://sam-backend.kjsieit.com/admin/data/forms/${path}`, {
       headers: {
         'user_id': localStorage.getItem('user_id'),
         'x-access-token': localStorage.getItem('token'),

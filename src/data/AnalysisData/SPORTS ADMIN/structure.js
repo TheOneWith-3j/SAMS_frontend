@@ -39,7 +39,7 @@ const handleBoyChange = (params, event) => {
             .then((res) => {
                 if (res.isConfirmed === true) {
                     //axios put
-                    axios.put(`http://localhost:5001/sports-admin/data/update`, data, {
+                    axios.put(`https://sam-backend.kjsieit.com/sports-admin/data/update`, data, {
                         headers: {
                             'user_id': localStorage.getItem('user_id'),
                             'x-access-token': localStorage.getItem('token'),
@@ -87,7 +87,7 @@ const handleGirlChange = (params, event) => {
             .then((res) => {
                 if (res.isConfirmed === true) {
                     //axios put
-                    axios.put(`http://localhost:5001/sports-admin/data/update`, data, {
+                    axios.put(`https://sam-backend.kjsieit.com/sports-admin/data/update`, data, {
                         headers: {
                             'user_id': localStorage.getItem('user_id'),
                             'x-access-token': localStorage.getItem('token'),
@@ -137,7 +137,7 @@ const handleCoachChange = (params, event) => {
             .then((res) => {
                 if (res.isConfirmed === true) {
                     //axios put
-                    axios.put(`http://localhost:5001/sports-admin/data/update`, data, {
+                    axios.put(`https://sam-backend.kjsieit.com/sports-admin/data/update`, data, {
                         headers: {
                             'user_id': localStorage.getItem('user_id'),
                             'x-access-token': localStorage.getItem('token'),
@@ -245,7 +245,7 @@ const columns01: GridColDef[] = [
         headerName: 'Nominee Photo',
         width: 200,
         renderCell: (params) => {
-            return <a target="_blank" href={`http://localhost:5001/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
+            return <a target="_blank" href={`https://sam-backend.kjsieit.com/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
         }
 
     },
@@ -254,7 +254,7 @@ const columns01: GridColDef[] = [
         headerName: 'Nominee Supportings',
         width: 200,
         renderCell: (params) => {
-            return <a target="_blank" href={`http://localhost:5001/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
+            return <a target="_blank" href={`https://sam-backend.kjsieit.com/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
         }
 
     },
@@ -339,7 +339,7 @@ const columns02: GridColDef[] = [
         headerName: 'Nominee Photo',
         width: 200,
         renderCell: (params) => {
-            return <a target="_blank" href={`http://localhost:5001/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
+            return <a target="_blank" href={`https://sam-backend.kjsieit.com/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
         }
 
     },
@@ -348,7 +348,7 @@ const columns02: GridColDef[] = [
         headerName: 'Nominee Supportings',
         width: 200,
         renderCell: (params) => {
-            return <a target="_blank" href={`http://localhost:5001/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
+            return <a target="_blank" href={`https://sam-backend.kjsieit.com/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
         }
 
     },
@@ -530,7 +530,7 @@ const columns03: GridColDef[] = [
         headerName: 'Nominee Photo',
         width: 200,
         renderCell: (params) => {
-            return <a target="_blank" href={`http://localhost:5001/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
+            return <a target="_blank" href={`https://sam-backend.kjsieit.com/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
         }
 
     },
@@ -539,7 +539,7 @@ const columns03: GridColDef[] = [
         headerName: 'Nominee Supportings',
         width: 300,
         renderCell: (params) => {
-            return <a target="_blank" href={`http://localhost:5001/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
+            return <a target="_blank" href={`https://sam-backend.kjsieit.com/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
         }
 
     },

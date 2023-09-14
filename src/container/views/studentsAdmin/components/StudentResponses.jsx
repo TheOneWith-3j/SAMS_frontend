@@ -33,7 +33,7 @@ const StudentResponses = () => {
     }
     else {
 
-      axios.get('http://localhost:5001/auth/validate', {
+      axios.get('https://sam-backend.kjsieit.com/auth/validate', {
         headers: {
           'x-access-token': localStorage.getItem('token'),
           'user_id': localStorage.getItem('user_id')
@@ -77,7 +77,7 @@ const StudentResponses = () => {
 
     let formName = path.replaceAll('-', " ");
 
-    const url = `http://localhost:5001/students-admin/data/${path}`;
+    const url = `https://sam-backend.kjsieit.com/students-admin/data/${path}`;
 
     axios.get(url, {
       headers: {
