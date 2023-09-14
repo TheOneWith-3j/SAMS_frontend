@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.650d68c9.css",
+    "main.js": "/static/js/main.daf721ac.js",
+    "static/media/skyfire.hdr": "/static/media/skyfire.d636088881625d2c4c75.hdr",
+    "static/media/404.gif": "/static/media/404.29ede64a7ffbbd0c06e4.gif",
+    "static/media/students.png": "/static/media/students.882c224a4c1ce58b1d9a.png",
+    "static/media/research.jpeg": "/static/media/research.0d8931c002e6b2bbee39.jpeg",
+    "static/media/institution.jpeg": "/static/media/institution.b591815c7889bdfd8113.jpeg",
+    "static/media/teaching.jpeg": "/static/media/teaching.f2886e57196b3043e707.jpeg",
+    "static/media/non-teaching.jpeg": "/static/media/non-teaching.4fe4359f9b6b85c86edb.jpeg",
+    "static/media/sports.jpeg": "/static/media/sports.a78854898adb311b477d.jpeg",
+    "static/media/inst4.png": "/static/media/inst4.0672081a7a86e6d32363.png",
+    "index.html": "/index.html",
+    "main.650d68c9.css.map": "/static/css/main.650d68c9.css.map",
+    "main.daf721ac.js.map": "/static/js/main.daf721ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.650d68c9.css",
+    "static/js/main.daf721ac.js"
+  ]
+}

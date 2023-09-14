@@ -1,0 +1,91 @@
+input::file-selector-button{
+    padding: 0.75rem;
+    border-radius: 15px;
+    background-color: white;
+    border-color: red;
+    margin: 10px 25px 0 0;
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+input::file-selector-button:hover{
+    background-color: rgb(185,28,28);
+    border-color: white;
+    color: white;
+    font-weight:600;
+}
+
+input[type='file'] {
+  color: transparent;
+}
+
+.swal-overlay {
+    background-color: rgba(37, 36, 36, 0.603);
+}
+
+.swal-modal {
+    background-color: rgba(255, 250, 250);
+    border: 3px solid white;
+}
+
+.gradient-button{
+
+    background: linear-gradient(45deg,  #FF0000, #FF4444, #FF8888, #FFCCCC);
+    border-radius: 10px;
+  background-size: 200% 200%;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  animation: animateGradient 5s ease-in-out infinite;
+}
+
+
+@keyframes animateGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }  }
+
+
+/** custom scroll bar**/
+
+::-webkit-scrollbar{
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: rgb(255, 255, 255)
+}
+
+::-webkit-scrollbar-track{
+  background: rgb(0,0,0);
+  border: 5px solid transparent;
+  background-clip: content-box;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to top , #FE0944 , #FEAE96) ;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to top , #FE0944 , #FEAE96) ;
+
+}
+
+
+
+
+
+
+
+
+   
