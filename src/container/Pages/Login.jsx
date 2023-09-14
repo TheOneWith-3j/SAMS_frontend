@@ -29,7 +29,7 @@ const Login = () => {
 
         if (Object.keys(credentials).length === 2) {
 
-            await axios.post('http://localhost:5001/auth/login', credentials)
+            await axios.post('https://sam.kjsieit.com/auth/login', credentials)
                 .then((res) => {
                     console.log(res);
                     if (res.data['authorized']) {
