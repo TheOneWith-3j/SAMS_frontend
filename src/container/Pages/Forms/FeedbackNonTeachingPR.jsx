@@ -34,7 +34,7 @@ const FeedbackNonTeachingPR = () => {
     }
     else {
 
-      axios.get('https://sam-backend.kjsieit.com/auth/validate', {
+      axios.get('http://localhost:5001/auth/validate', {
         headers: {
           'x-access-token': localStorage.getItem('token'),
           'user_id': localStorage.getItem('user_id')

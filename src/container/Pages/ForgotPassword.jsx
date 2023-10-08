@@ -25,7 +25,7 @@ const ForgotPassword = () => {
         }
         else{
 
-            await axios.post('https://sam-backend.kjsieit.com/auth/forgot-password', email)
+            await axios.post('http://localhost:5001/auth/forgot-password', email)
             .then((res) => {
                 console.log(res);
                 setEmail({})

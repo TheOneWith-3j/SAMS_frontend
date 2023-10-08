@@ -33,7 +33,7 @@ const SportsResponses = () => {
         }
         else {
 
-            axios.get('https://sam-backend.kjsieit.com/auth/validate', {
+            axios.get('http://localhost:5001/auth/validate', {
                 headers: {
                     'x-access-token': localStorage.getItem('token'),
                     'user_id': localStorage.getItem('user_id')
@@ -93,7 +93,7 @@ const SportsResponses = () => {
                 navigate('/sports-admin')
         }
 
-        const url = `https://sam-backend.kjsieit.com/sports-admin/data/${path}`
+        const url = `http://localhost:5001/sports-admin/data/${path}`
 
         axios.get(url, {
             headers: {

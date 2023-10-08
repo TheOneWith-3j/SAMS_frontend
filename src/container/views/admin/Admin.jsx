@@ -42,7 +42,7 @@ const Admin = () => {
             navigate('/auth/login')
         }
 
-        axios.get('https://sam-backend.kjsieit.com/auth/validate', {
+        axios.get('http://localhost:5001/auth/validate', {
             headers: {
                 'x-access-token': localStorage.getItem('token'),
                 'user_id': localStorage.getItem('user_id')
@@ -86,7 +86,7 @@ const Admin = () => {
     const loadDashboardData = () => {
 
         // all Counts
-        axios.get('https://sam-backend.kjsieit.com/admin/data/count/all', {
+        axios.get('http://localhost:5001/admin/data/count/all', {
             headers: {
                 'user_id': localStorage.getItem('user_id'),
                 'x-access-token': localStorage.getItem('token'),
@@ -100,7 +100,7 @@ const Admin = () => {
             })
 
         // 15 days Count
-        axios.get('https://sam-backend.kjsieit.com/admin/data/count/15', {
+        axios.get('http://localhost:5001/admin/data/count/15', {
             headers: {
                 'user_id': localStorage.getItem('user_id'),
                 'x-access-token': localStorage.getItem('token'),
@@ -114,7 +114,7 @@ const Admin = () => {
             })
 
         // institution Wise count 
-        axios.get('https://sam-backend.kjsieit.com/admin/data/count/institution-wise', {
+        axios.get('http://localhost:5001/admin/data/count/institution-wise', {
             headers: {
                 'user_id': localStorage.getItem('user_id'),
                 'x-access-token': localStorage.getItem('token'),
@@ -129,7 +129,7 @@ const Admin = () => {
 
          // group Wise count
 
-         axios.get('https://sam-backend.kjsieit.com/admin/data/count/group', {
+         axios.get('http://localhost:5001/admin/data/count/group', {
             headers: {
                 'user_id': localStorage.getItem('user_id'),
                 'x-access-token': localStorage.getItem('token'),

@@ -42,7 +42,7 @@ const Analysis = () => {
                 setColumns(columns06)
         }
 
-        const url = `https://sam-backend.kjsieit.com/hoi/data/${formTitle}`;
+        const url = `http://localhost:5001/hoi/data/${formTitle}`;
 
         axios.get(url,{
             headers:{
