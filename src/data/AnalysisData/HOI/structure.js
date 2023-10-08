@@ -67,7 +67,7 @@ const columns01: GridColDef[] = [
   { field: 'q_38', headerName: 'What are the significant contributions made by your institution to the support functions eg HR, IT, Sports, Security, PR, AR etc', width: 200 },
   {
     field: 'supportings', headerName: 'Supportings', width: 200, renderCell: (params) => {
-      return <a href={`http://localhost:5001/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
+      return <a href={`https://sam-backend.kjsieit.com/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
     }
   },
   {
@@ -129,12 +129,12 @@ const columns02: GridColDef[] = [
   { field: 'national_awards_won_count', headerName: 'National Awards Won Count', width: 250 },
   {
     field: 'evidence_of_research', headerName: 'Evidence of Research', width: 200, renderCell: (params) => {
-      return <a href={`http://localhost:5001/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
+      return <a href={`https://sam-backend.kjsieit.com/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
     }
   },
   {
     field: 'evidence_of_data_provided', headerName: 'Evidence of Data Provided', width: 200, renderCell: (params) => {
-      return <a href={`http://localhost:5001/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
+      return <a href={`https://sam-backend.kjsieit.com/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
     }
   },
   { field: 'confirmation_of_trueData', headerName: 'Confirmation of True Data', width: 200, },
@@ -169,12 +169,12 @@ const columns03: GridColDef[] = [
   { field: 'nominee_coach_comments', headerName: 'Nominee Coach Comments', width: 200 },
   {
     field: 'nominee_teacher_photo', headerName: 'Nominee Teacher Photo', width: 200, renderCell: (params) => {
-      return <a href={`http://localhost:5001/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
+      return <a href={`https://sam-backend.kjsieit.com/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
     }
   },
   {
     field: 'nominee_teacher_supportings', headerName: 'Nominee Teacher Supportings', width: 250, renderCell: (params) => {
-      return <a href={`http://localhost:5001/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
+      return <a href={`https://sam-backend.kjsieit.com/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
     }
   },
   { field: 'q_01', headerName: 'Skill to demonstrate competency in motor skills and movement patterns needed to perform a variety of physical activities.', width: 100 },
@@ -202,12 +202,12 @@ const columns03: GridColDef[] = [
   { field: 'nominee_ss_girl_sport', headerName: 'Nominee SS Girl Sport', width: 200 },
   {
     field: 'nominee_ss_girl_photo', headerName: 'Nominee SS Girl Photo', width: 200, renderCell: (params) => {
-      return <a href={`http://localhost:5001/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
+      return <a href={`https://sam-backend.kjsieit.com/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
     }
   },
   {
     field: 'nominee_ss_girl_supportings', headerName: 'Nominee SS Girl Supportings', width: 250, renderCell: (params) => {
-      return <a href={`http://localhost:5001/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
+      return <a href={`https://sam-backend.kjsieit.com/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
     }
   },
   { field: 'q_21', headerName: 'Q21', width: 100 },
@@ -219,12 +219,12 @@ const columns03: GridColDef[] = [
   { field: 'nominee_ss_boy_sport', headerName: 'Nominee SS Boy Sport', width: 200 },
   {
     field: 'nominee_ss_boy_photo', headerName: 'Nominee SS Boy Photo', width: 200, renderCell: (params) => {
-      return <a href={`http://localhost:5001/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
+      return <a href={`https://sam-backend.kjsieit.com/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
     }
   },
   {
     field: 'nominee_ss_boy_supportings', headerName: 'Nominee SS Boy Supportings', width: 250, renderCell: (params) => {
-      return <a href={`http://localhost:5001/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
+      return <a href={`https://sam-backend.kjsieit.com/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
     }
   },
   { field: 'q_25', headerName: 'Q25', width: 100 },
@@ -266,12 +266,12 @@ const columns04: GridColDef[] = [
   { field: 'q_20', headerName: 'Score the candidate on his/her/their general impression in terms of honesty, integrity, conduct and ability to get along with the superiors colleagues', width: 100 },
   {
     field: 'data_evidence', headerName: 'Data Evidence', width: 200, renderCell: (params) => {
-      return <a href={`http://localhost:5001/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
+      return <a href={`https://sam-backend.kjsieit.com/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
     }
   },
   {
     field: 'profile_photograph', headerName: 'Profile Photograph', width: 200, renderCell: (params) => {
-      return <a href={`http://localhost:5001/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
+      return <a href={`https://sam-backend.kjsieit.com/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
     }
   },
   {
@@ -334,12 +334,12 @@ const columns05: GridColDef[] = [
   { field: 'q_24', headerName: 'Accuracy & Dependability', width: 100 },
   {
     field: 'proof_docs', headerName: 'Proof Documents', width: 200, renderCell: (params) => {
-      return <a href={`http://localhost:5001/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
+      return <a href={`https://sam-backend.kjsieit.com/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
     }
   },
   {
     field: 'nominee_photograph', headerName: 'Nominee Photograph', width: 200, renderCell: (params) => {
-      return <a href={`http://localhost:5001/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
+      return <a href={`https://sam-backend.kjsieit.com/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
     }
   },
   {
@@ -413,7 +413,7 @@ const columns06: GridColDef[] = [
     headerName: 'Supportings',
     width: 150,
     renderCell: (params) => {
-      return <a target="_blank" href={`http://localhost:5001/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
+      return <a target="_blank" href={`https://sam-backend.kjsieit.com/${params.value ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
     }
   },
 ]

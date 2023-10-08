@@ -28,7 +28,7 @@ const Announce = () => {
                 if (res.isConfirmed) {
 
                     // make axios post request
-                    axios.post('http://localhost:5001/admin/data/announce-results', { result: file }, {
+                    axios.post('https://sam-backend.kjsieit.com/admin/data/announce-results', { result: file }, {
                         headers: {
                             "Content-Type": "multipart/form-data",
                         }
@@ -59,7 +59,7 @@ const Announce = () => {
         }
         else {
 
-            axios.get('http://localhost:5001/auth/validate', {
+            axios.get('https://sam-backend.kjsieit.com/auth/validate', {
                 headers: {
                     'x-access-token': localStorage.getItem('token'),
                     'user_id': localStorage.getItem('user_id')
@@ -99,7 +99,7 @@ const Announce = () => {
                 })
         }
 
-        const url = 'http://localhost:5001/admin/data/results'
+        const url = 'https://sam-backend.kjsieit.com/admin/data/results'
         axios.get(url, {
             headers: {
                 'user_id': localStorage.getItem('user_id'),
@@ -163,7 +163,7 @@ const Announce = () => {
                                                     Results have been announced for the current Year . Download The File to View
 
                                                     <div className='bg-red-800 text-white p-3 hover:bg-red-400 w-52 my-8 rounded-xl text-center animate-pulse'>
-                                                        <a href={`http://localhost:5001${url}`} download>Download</a>
+                                                        <a href={`https://sam-backend.kjsieit.com${url}`} download>Download</a>
                                                     </div>
                                                 </div>
                                             </>

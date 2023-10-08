@@ -27,7 +27,7 @@ const handleResearchChange = (params, event) => {
             .then((res) => {
                 if (res.isConfirmed == true) {
                     //axios put
-                    axios.put(`http://localhost:5001/research-admin/data/update`, data, {
+                    axios.put(`https://sam-backend.kjsieit.com/research-admin/data/update`, data, {
                         headers: {
                             'user_id': localStorage.getItem('user_id'),
                             'x-access-token': localStorage.getItem('token'),
@@ -87,12 +87,12 @@ const columns01: GridColDef[] = [
     { field: 'national_awards_won_count', headerName: 'National Awards Won Count', width: 250 },
     {
         field: 'evidence_of_research', headerName: 'Evidence of Research', width: 200, renderCell: (params) => {
-            return <a href={`http://localhost:5001/${params.value != null ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
+            return <a href={`https://sam-backend.kjsieit.com/${params.value != null ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
         }
     },
     {
         field: 'evidence_of_data_provided', headerName: 'Evidence of Data Provided', width: 200, renderCell: (params) => {
-            return <a href={`http://localhost:5001/${params.value != null ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
+            return <a href={`https://sam-backend.kjsieit.com/${params.value != null ? params.value.split("data")[1] : null}`} className="p-2 rounded-2xl cursor-pointer bg-red-700 text-white font-Poppins" download>Download</a>;
         }
     },
     { field: 'confirmation_of_trueData', headerName: 'Confirmation of True Data', width: 200, },
